@@ -1,0 +1,11 @@
+G:\Study\Projects\DotNet_C#\OOPS\bin\Debug\netcoreapp2.2\OOPS.deps.json
+G:\Study\Projects\DotNet_C#\OOPS\bin\Debug\netcoreapp2.2\OOPS.runtimeconfig.json
+G:\Study\Projects\DotNet_C#\OOPS\bin\Debug\netcoreapp2.2\OOPS.runtimeconfig.dev.json
+G:\Study\Projects\DotNet_C#\OOPS\bin\Debug\netcoreapp2.2\OOPS.dll
+G:\Study\Projects\DotNet_C#\OOPS\bin\Debug\netcoreapp2.2\OOPS.pdb
+G:\Study\Projects\DotNet_C#\OOPS\obj\Debug\netcoreapp2.2\OOPS.csprojAssemblyReference.cache
+G:\Study\Projects\DotNet_C#\OOPS\obj\Debug\netcoreapp2.2\OOPS.csproj.CoreCompileInputs.cache
+G:\Study\Projects\DotNet_C#\OOPS\obj\Debug\netcoreapp2.2\OOPS.AssemblyInfoInputs.cache
+G:\Study\Projects\DotNet_C#\OOPS\obj\Debug\netcoreapp2.2\OOPS.AssemblyInfo.cs
+G:\Study\Projects\DotNet_C#\OOPS\obj\Debug\netcoreapp2.2\OOPS.dll
+G:\Study\Projects\DotNet_C#\OOPS\obj\Debug\netcoreapp2.2\OOPS.pdb
