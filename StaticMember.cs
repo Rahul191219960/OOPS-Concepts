@@ -33,6 +33,28 @@ namespace OOPS
     * Static members are initialized before the static member is accessed for the first time and before the static constructor,
       if there is one, is called. To access a static class member, use the name of the class instead of a variable name to specify the location of the member.
 
+                                           ACCESS MODIFIERS
+    *  Struct members cannot be declared as protected because structs do not support inheritance.
+    ** Normally, the accessibility of a member is not greater than the accessibility of the type that contains it. However, a public member of an internal
+       class might be accessible from outside the assembly if the member implements interface methods or overrides virtual methods that are defined in a
+       public base class.
+    *  Similarly, the return type and the parameter types of any member that is a method, indexer, or delegate must be at least as accessible as the member
+       itself. For example, you cannot have a public method M that returns a class C unless C is also public. Likewise, you cannot have a protected property
+       of type A if A is declared as private.
+    *  User-defined operators must always be declared as public and static.
+    *  Finalizers cannot have accessibility modifiers.
+    * Interfaces declared directly within a namespace can be declared as public or internal and, just like classes and structs, interfaces default to 
+      internal access. Interface members are always public because the purpose of an interface is to enable other types to access a class or struct.
+
+                                            FIELDS
+    * A field can be given an initial value by using the assignment operator when the field is declared.
+    * Fields are initialized immediately before the constructor for the object instance is called. If the constructor assigns the value of a field,
+      it will overwrite any value given during field declaration.
+
+                                            CONSTANTS
+    *  Only the C# built-in types (excluding System.Object) may be declared as const. User-defined types, including classes, structs, and arrays, cannot be const.
+      Use the readonly modifier to create a class, struct, or array that is initialized one time at runtime (for example in a constructor) and thereafter cannot be
+      changed.
     */
     //--------------------------------------------------------
 }
