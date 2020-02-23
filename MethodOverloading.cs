@@ -59,6 +59,12 @@ namespace OOPS
 
         /*public void totalMarks(int first ,int second){   it is npt possible to overload the method only with return type because it is not the method signature
         //     Console.WriteLine( first + second);
+
+        **** NOTE
+
+        --> A return type of a method is not part of the signature of the method for the purposes of method overloading.
+            However, it is part of the signature of the method when determining the compatibility between a delegate and the method that it points to.
+
         // } */
         public int totalMarks(int first, int second, int third)
         {
