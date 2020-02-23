@@ -84,6 +84,7 @@ namespace OOPS
             printDelegate printvar2 = d1.printName2;
             printDelegate printvar3 = d1.printName3;
             printDelegate allMethods = printvar + printvar1 + printvar2 + printvar3;
+            // printDelegate allMethods = printvar + printvar1 + printvar2 - printvar3;
             allMethods();
             //------------------------------------------------------------------------------
         }
