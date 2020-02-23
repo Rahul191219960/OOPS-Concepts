@@ -2,6 +2,10 @@
 
 namespace OOPS
 {
+
+    delegate int sumDelegate(int x, int y);
+    delegate double sumPrivateDelegate(double x, double y);
+    delegate void printDelegate();
     class Program
     {
         static void Main(string[] args)
@@ -55,13 +59,28 @@ namespace OOPS
 
 
             //--------------------static keyword-----------------------------------------
-            CountInstances c1 = new CountInstances();
-            CountInstances c2 = new CountInstances();
-            CountInstances c3 = new CountInstances();
-            CountInstances c4 = new CountInstances();
-            Console.WriteLine(CountInstances.countNoOfInstances); // with static counter
+            // CountInstances c1 = new CountInstances();
+            // CountInstances c2 = new CountInstances();
+            // CountInstances c3 = new CountInstances();
+            // CountInstances c4 = new CountInstances();
+            // Console.WriteLine(CountInstances.countNoOfInstances); // with static counter
             // Console.WriteLine(c4.countNoOfInstances); // without static counter
             //---------------------------------------------------------------------------
+
+
+
+
+            //--------------------Delegates-------------------------------------------------
+            // delegates d1 = new delegates();
+            // sumDelegate sumvar = d1.sum;
+            // sumPrivateDelegate sum1var = d1.sumPrivate;
+            // printDelegate printvar = d1.printName;
+            // int Result = sumvar(1,3);
+            // Console.WriteLine(Result);
+            // Console.WriteLine(sum1var(4.5,5.2));
+            // printvar();
+            //------------------------------------------------------------------------------
         }
     }
 }
+
