@@ -20,5 +20,18 @@ namespace OOPS
             Console.WriteLine("Delegate print Name method called");
         }
 
+        public void printName1()
+        {
+            Console.WriteLine("Delegate print 1 Name method called");
+        }
+        public void printName2()
+        {
+            Console.WriteLine("Delegate print 2 Name method called");
+        }
+        public void printName3()
+        {
+            Console.WriteLine("Delegate print 3 Name method called");
+        }
+
     }
 }

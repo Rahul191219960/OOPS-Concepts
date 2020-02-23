@@ -71,14 +71,20 @@ namespace OOPS
 
 
             //--------------------Delegates-------------------------------------------------
-            // delegates d1 = new delegates();
-            // sumDelegate sumvar = d1.sum;
-            // sumPrivateDelegate sum1var = d1.sumPrivate;
-            // printDelegate printvar = d1.printName;
-            // int Result = sumvar(1,3);
-            // Console.WriteLine(Result);
-            // Console.WriteLine(sum1var(4.5,5.2));
-            // printvar();
+            delegates d1 = new delegates();
+            sumDelegate sumvar = d1.sum;
+            sumPrivateDelegate sum1var = d1.sumPrivate;
+
+            int Result = sumvar(1, 3);
+            Console.WriteLine(Result);
+            Console.WriteLine(sum1var(4.5, 5.2));
+
+            printDelegate printvar = d1.printName;
+            printDelegate printvar1 = d1.printName1;
+            printDelegate printvar2 = d1.printName2;
+            printDelegate printvar3 = d1.printName3;
+            printDelegate allMethods = printvar + printvar1 + printvar2 + printvar3;
+            allMethods();
             //------------------------------------------------------------------------------
         }
     }
