@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OOPS
 {
@@ -43,7 +44,7 @@ namespace OOPS
             // Console.WriteLine("*******************************polymorphism *******************************");
             // Console.WriteLine("---convertible---");
             // ConvertibleCar c1 = new ConvertibleCar();
-            // c1.ShowDetails();  // derived method
+            // c1.DescribeCar();  // derived method
 
             // Console.WriteLine("--mini van-------");
 
@@ -71,6 +72,7 @@ namespace OOPS
 
 
             //--------------------Delegates-------------------------------------------------
+
             // delegates d1 = new delegates();
             // sumDelegate sumvar = d1.sum;
             // sumPrivateDelegate sum1var = d1.sumPrivate;
@@ -90,13 +92,60 @@ namespace OOPS
 
 
 
-            
+
             //---------------------Immutable Classes------------------------------------------
-            Contact c1 = new Contact("Rahul" , "New Delhi");
+            // Contact c1 = new Contact("Rahul" , "New Delhi");
             // Console.WriteLine(c1.Name , "-" , c1.Address );
             // Console.WriteLine(c1.Address);
             // c1.Address = "New Delhi";
             //--------------------------------------------------------------------------------
+
+
+
+
+            //-------------------Operators-------------------------------------------------
+
+            // Null conditional operator ?. ?[]
+            /*
+            * if a evaluates to null, the result of a?.x or a?[x] is null.
+            * If a evaluates to non-null, the result of a?.x or a?[x] is the same as the result of a.x or a[x], respectively
+            * The null-conditional operators are short-circuiting. That is, if one operation in a chain of conditional member 
+              or element access operations returns null, the rest of the chain doesn't execute.
+            * Use the ?. operator to check if a delegate is non-null and invoke it in a thread-safe way.
+            */
+
+            // Index from end operator ^
+            // int[] xs = new[] { 0, 10, 20, 30, 40 };
+            // int last = xs[^1];
+            // Console.WriteLine(last);
+
+
+            //----------------------------------------------------------------------------
+
+
+
+
+            //-----------------------destructuring-------------------------------------------------
+            // City city = new City();
+            // var (_, population, iscapital) = city.getCityInfo();
+            // // Console.WriteLine(name);
+            // Console.WriteLine(population);
+            // Console.WriteLine(iscapital);
+            // Person person = new Person("Rahul","Singh","Bisht","New Delhi","New Delhi");
+            // var(fname,mName,lName) = person;
+            // Console.WriteLine(fname);
+            // Console.WriteLine(mName);
+            // Console.WriteLine(lName);
+            //------------------------------------------------------------------------------------------
+
+
+
+
+
+            //----------------------------------Indexers---------------------------------------------------
+            // DataSamples dataSample = new DataSamples(15);
+            // Measurements m =  dataSample[2];
+            //---------------------------------------------------------------------------------------------
         }
     }
 }
