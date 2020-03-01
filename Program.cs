@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using MyExtension;
+using Extensions;
+using ExtensionsDemo;
 
 namespace OOPS
 {
@@ -145,6 +148,23 @@ namespace OOPS
             //----------------------------------Indexers---------------------------------------------------
             // DataSamples dataSample = new DataSamples(15);
             // Measurements m =  dataSample[2];
+            //---------------------------------------------------------------------------------------------
+
+
+
+            //----------------------------------Extension Methods------------------------------------------
+            // Class1 c1 = new Class1();
+            // c1.M1();
+            // c1.M2();
+
+            // A a  = new A();
+            // a.MethodA();
+
+            // B b = new B();
+            // b.MethodB(7);
+            // Object obj = null;
+            // C c = new C();
+            // c.MethodB(obj);
             //---------------------------------------------------------------------------------------------
         }
     }
